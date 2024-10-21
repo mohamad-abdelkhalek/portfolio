@@ -62,3 +62,9 @@ body {
   .activities-sec ul li {
     margin-bottom: 10px; 
   }
+
+  footer {
+    padding: 10px;
+    background-color: #dfdbc0;
+    margin-top: 40px;
+  }
