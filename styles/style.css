@@ -45,3 +45,10 @@ body {
   .nav-bar a:hover {
     background-color: #005bb5;
   }
+
+  .education-sec, .activities-sec, .contact-sec {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #dfdbc0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
