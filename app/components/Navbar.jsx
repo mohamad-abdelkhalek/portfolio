@@ -5,8 +5,9 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <nav>
-        <a href="">
+      <nav className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4
+      flex item-center justify-between x-50">
+        <a href="#top">
           <Image
             src={assets.logo}
             alt="Logo"
@@ -15,7 +16,8 @@ const Navbar = () => {
           />
         </a>
 
-        <ul>
+        <ul className="hidden md:flex items-center gap-6 lg:gap-8
+        rounded-full px-12 py-3">
           <li>
             <a href="#top">Home</a>
           </li>
@@ -34,7 +36,8 @@ const Navbar = () => {
         </ul>
 
         <div>
-          <a href="#contact">
+          <a href="#contact" className="hidden lg:flex items-center gap-3 px-10
+          py-2.5 border border-gray-500 rounded-full ml-4">
             Contact <Image src={assets.arrow_icon} alt="Logo" className="w-3"/>
           </a>
         </div>
