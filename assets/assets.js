@@ -10,6 +10,9 @@ import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
+import postman from './Postman.png'
+import arduino from './Arduino.png'
+import android from './android.png'
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -49,6 +52,9 @@ export const assets = {
     figma,
     git,
     mongodb,
+    postman,
+    arduino,
+    android,
     right_arrow_white,
     logo,
     logo_dark,
@@ -113,5 +119,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.postman, assets.arduino, assets.android
 ];
