@@ -5,17 +5,3 @@
 *{
   font-family: Outfit;
 }
-
-@keyframes wave {
-  0% { transform: rotate(0deg); }
-  50% { transform: rotate(15deg); }
-  100% { transform: rotate(0deg); }
-}
-
-.animate-wave {
-  animation: wave 1.5s infinite;
-}
-
-.animate-fade-in {
-  animation: fadeIn 1s ease-in;
-}
