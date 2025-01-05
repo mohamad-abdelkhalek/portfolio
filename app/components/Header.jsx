@@ -43,15 +43,27 @@ const Header = () => {
 
         <a
           href="/Mohammad_Abdelkhalek_CV.pdf"
-          download
-          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
+          download="Mohammad_Abdelkhalek_CV.pdf"
+          className="group relative inline-flex items-center gap-2 px-8 py-3 
+          border border-gray-500 rounded-full
+          transition-all duration-300 ease-in-out
+         hover:bg-gray-100 hover:border-gray-700
+          focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2
+          active:scale-95"
+          aria-label="Download Resume"
         >
-          My resume
+          <span className="font-medium">My Resume</span>
           <Image
             src={assets.download_icon}
-            alt="Download icon"
-            className="w-4"
+            alt=""
+            className="w-4 h-4 transition-transform group-hover:translate-y-0.5"
+            aria-hidden="true"
           />
+
+          {/* loading state */}
+          <span className="absolute inset-0 flex items-center justify-center bg-white/80 invisible group-data-[loading=true]:visible">
+            <span className="w-5 h-5 border-2 border-gray-500 border-t-transparent rounded-full animate-spin" />
+          </span>
         </a>
       </div>
     </div>
