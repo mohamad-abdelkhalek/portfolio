@@ -38,9 +38,10 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-import github from './GitHub.png'
-import linkedin from './LinkedIn.png'
-import instagram from './instagram.png'
+import github from './GitHub.png';
+import linkedin from './LinkedIn.png';
+import instagram from './instagram.png';
+import twitter from './twitter.png';
 
 export const assets = {
     user_image,
@@ -85,7 +86,8 @@ export const assets = {
     right_arrow_bold_dark,
     github,
     linkedin,
-    instagram
+    instagram,
+    twitter
 };
 
 export const workData = [

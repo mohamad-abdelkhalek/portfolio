@@ -64,6 +64,19 @@ const Footer = () => {
               />
             </a>
           </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://x.com/mhmd_ak0"
+              className="block transition-transform hover:scale-110"
+            >
+              <Image
+                src={assets.twitter}
+                alt="Instagram"
+                className="w-6 h-6 object-contain"
+              />
+            </a>
+          </li>
         </ul>
       </div>
     </div>
