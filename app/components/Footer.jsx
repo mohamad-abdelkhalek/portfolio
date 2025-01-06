@@ -6,19 +6,15 @@ const Footer = () => {
   return (
     <div className="mt-20">
       <div className="text-center">
-        <Image 
-          src={assets.logo} 
-          alt="logo" 
-          className="w-36 mx-auto mb-2 h-auto" 
+        <Image
+          src={assets.logo}
+          alt="logo"
+          className="w-36 mx-auto mb-2 h-auto"
           priority
         />
 
         <div className="w-max flex items-center gap-2 mx-auto">
-          <Image 
-            src={assets.mail_icon} 
-            alt="mail" 
-            className="w-6 h-auto"
-          />
+          <Image src={assets.mail_icon} alt="mail" className="w-6 h-auto" />
           mohammad.abdelkhalek.dev@gmail.com
         </div>
       </div>
@@ -30,15 +26,15 @@ const Footer = () => {
         <p>© 2025 Mohammad Abdelkhalek. All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a 
-              target="_blank" 
+            <a
+              target="_blank"
               href="https://github.com/mohamad-abdelkhalek"
               className="block transition-transform hover:scale-110"
             >
-              <Image 
-                src={assets.github} 
+              <Image
+                src={assets.github}
                 alt="Github"
-                className="w-6 h-6 object-contain" 
+                className="w-6 h-6 object-contain"
               />
             </a>
           </li>
@@ -48,8 +44,8 @@ const Footer = () => {
               href="https://www.linkedin.com/in/mohammad-abdelkhalek"
               className="block transition-transform hover:scale-110"
             >
-              <Image 
-                src={assets.linkedin} 
+              <Image
+                src={assets.linkedin}
                 alt="LinkedIn"
                 className="w-6 h-6 object-contain"
               />
@@ -61,8 +57,8 @@ const Footer = () => {
               href="https://www.instagram.com/mhmd_abdelkhalek"
               className="block transition-transform hover:scale-110"
             >
-              <Image 
-                src={assets.instagram} 
+              <Image
+                src={assets.instagram}
                 alt="Instagram"
                 className="w-6 h-6 object-contain"
               />
