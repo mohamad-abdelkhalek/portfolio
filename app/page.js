@@ -12,6 +12,7 @@ export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
+    
     if (
       localStorage.theme === "dark" ||
       (!("theme" in localStorage) &&
