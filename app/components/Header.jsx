@@ -31,7 +31,7 @@ const Header = () => {
         <a
           href="#contact"
           className="px-10 py-3 border border-white rounded-full bg-black
-        text-white flex items-center gap-2"
+        text-white flex items-center gap-2 dark:bg-transparent"
         >
           Contact Me
           <Image
@@ -49,7 +49,7 @@ const Header = () => {
           transition-all duration-300 ease-in-out
          hover:bg-gray-100 hover:border-gray-700
           focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2
-          active:scale-95"
+          active:scale-95 bg-white dark:text-black"
           aria-label="Download Resume"
         >
           <span className="font-medium">My Resume</span>
