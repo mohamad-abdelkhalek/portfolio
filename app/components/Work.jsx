@@ -60,8 +60,8 @@ const Work = (isDarkMode) => {
             duration-500 group-hover:bottom-7"
             >
               <div>
-                <h2 className="font-semibold">{project.title}</h2>
-                <p className="text-sm text-gray-700">{project.description}</p>
+              <a target="_blank" rel="noopener noreferrer" href={project.link}><h2 className="font-semibold">{project.title}</h2></a>
+              <a target="_blank" rel="noopener noreferrer" href={project.link}><p className="text-sm text-gray-700">{project.description}</p></a>
               </div>
 
               <div
@@ -69,7 +69,7 @@ const Work = (isDarkMode) => {
               aspect-square flex items-center justify-center
               shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
               >
-                <Image src={assets.send_icon} alt="Send icon" className="w-5" />
+                <a target="_blank" rel="noopener noreferrer" href={project.link}><Image src={assets.send_icon} alt="Send icon" className="w-5" /></a>
               </div>
             </div>
           </motion.div>

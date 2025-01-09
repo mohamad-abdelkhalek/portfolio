@@ -49,6 +49,7 @@ import arrowX from './arrowX.png'
 import mailX from './mailX.png'
 import githubX from './githubX.png'
 
+
 export const assets = {
     user_image,
     code_icon,
@@ -104,24 +105,34 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'ManageMint',
+        description: 'Full-Stack project management app',
+        bgImage: '/managemint.png',
+        link: 'https://github.com/mohamad-abdelkhalek/ManageMint'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'CryptoPlace',
+        description: 'Cryptocurrency tracking app',
+        bgImage: '/crypto.png',
+        link: 'https://crypto-place-nu.vercel.app/'
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Chat App',
+        description: 'Real-time chat application',
+        bgImage: '/chatapp.png',
+        link: 'https://github.com/mohamad-abdelkhalek/realtime-chat-app'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'AI Chatbot',
+        description: 'AI chatbot with Gemini API',
+        bgImage: '/chatbot.jpeg',
+        link: 'https://github.com/mohamad-abdelkhalek/ai-chatbot'
+    },
+    {
+        title: 'iSocial',
+        description: 'Digital marketing platform',
+        bgImage: '/isocial.png',
+        link: 'https://i-social-tan.vercel.app/'
     },
 ]
 
