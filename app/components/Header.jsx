@@ -71,7 +71,7 @@ const Header = () => {
           href="/Mohammad_Abdelkhalek_CV.pdf"
           download="Mohammad_Abdelkhalek_CV.pdf"
           className="px-10 py-3 border rounded-full border-gray-500 flex
-          items-center gap-2 ba-white dark:text-black"
+          items-center gap-2 bg-white dark:text-black"
           aria-label="Download Resume"
         >
           <span className="font-medium">My Resume</span>
