@@ -26,16 +26,19 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
       >
-        Hi! I'm Mohammad Abdelkhalek
+        Hi! I'm{" "}
+        <div className="font-semibold font-Ovo">
+          Mohammad Abdelkhalek
+        </div>
         <Image src={assets.hand_icon} alt="Hand icon" className="w-6" />
       </motion.h3>
       <motion.h1
         initial={{ y: -30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
-        className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo"
+        className="text-3xl sm:text-6xl lg:text-[61px] font-Ovo"
       >
-        Full-Stack Developer Based in Lebanon.
+        Full-Stack Software Engineer
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -43,9 +46,8 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        Full-Stack Developer skilled in the MERN stack, creating dynamic,
-        scalable web applications with seamless user experiences and robust
-        backends.
+        Full-Stack Developer skilled in creating dynamic, scalable web
+        applications with seamless user experiences and robust backends.
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
