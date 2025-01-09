@@ -42,7 +42,7 @@ const About = (isDarkMode) => {
                 key={index}
               >
                 <Image
-                  src={isDarkMode ? iconDark : icon}
+                  src={icon}
                   alt={title}
                   className="w-6 sm:w-7 mt-2 sm:mt-3"
                 />

@@ -42,6 +42,12 @@ import github from './GitHub.png';
 import linkedin from './LinkedIn.png';
 import instagram from './instagram.png';
 import twitter from './twitter.png';
+import codeX from './codeX.png'
+import eduX from './eduX.png'
+import projectX from './projectX.png'
+import arrowX from './arrowX.png'
+import mailX from './mailX.png'
+import githubX from './githubX.png'
 
 export const assets = {
     user_image,
@@ -87,7 +93,13 @@ export const assets = {
     github,
     linkedin,
     instagram,
-    twitter
+    twitter,
+    codeX,
+    eduX,
+    projectX,
+    arrowX,
+    mailX,
+    githubX
 };
 
 export const workData = [
@@ -121,9 +133,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Technologies', description: 'Java, JavaScript, PHP, Python, TypeScript | MERN Stack | Bootstrap, Tailwind | Laravel | MariaDB, SQL, MySQL, PostgreSQL' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.codeX, iconDark: assets.code_icon_dark, title: 'Technologies', description: 'Java, JavaScript, PHP, Python, TypeScript | MERN Stack | Bootstrap, Tailwind | Laravel | MariaDB, SQL, MySQL, PostgreSQL' },
+    { icon: assets.eduX, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc in Computer Science' },
+    { icon: assets.projectX, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [

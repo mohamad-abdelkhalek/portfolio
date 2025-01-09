@@ -6,14 +6,9 @@ const Footer = ( isDarkMode ) => {
   return (
     <div className="mt-20">
       <div className="text-center">
-        <Image
-          src={isDarkMode ? assets.logo_dark : assets.logo}
-          alt="logo"
-          className="w-36 mx-auto mb-2 h-auto"
-        />
 
         <div className="w-max flex items-center gap-2 mx-auto">
-          <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt="mail" className="w-6 h-auto" />
+          <Image src={assets.mailX} alt="mail" className="w-6 h-auto" />
           mohammad.abdelkhalek.dev@gmail.com
         </div>
       </div>
@@ -31,7 +26,7 @@ const Footer = ( isDarkMode ) => {
               className="block transition-transform hover:scale-110"
             >
               <Image
-                src={assets.github}
+                src={assets.githubX}
                 alt="Github"
                 className="w-6 h-6 object-contain"
               />
@@ -58,19 +53,6 @@ const Footer = ( isDarkMode ) => {
             >
               <Image
                 src={assets.instagram}
-                alt="Instagram"
-                className="w-6 h-6 object-contain"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://x.com/mhmd_ak0"
-              className="block transition-transform hover:scale-110"
-            >
-              <Image
-                src={assets.twitter}
                 alt="Instagram"
                 className="w-6 h-6 object-contain"
               />
