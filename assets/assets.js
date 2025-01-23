@@ -105,6 +105,12 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'Threadly',
+        description: 'Real-time chat application',
+        bgImage: '/chatapp.png',
+        link: 'https://threadly-ubuq.onrender.com/'
+    },
+    {
         title: 'ManageMint',
         description: 'Full-Stack project management app',
         bgImage: '/managemint.png',
@@ -116,12 +122,7 @@ export const workData = [
         bgImage: '/crypto.png',
         link: 'https://crypto-place-nu.vercel.app/'
     },
-    {
-        title: 'Chat App',
-        description: 'Real-time chat application',
-        bgImage: '/chatapp.png',
-        link: 'https://github.com/mohamad-abdelkhalek/realtime-chat-app'
-    },
+    
     {
         title: 'AI Chatbot',
         description: 'AI chatbot with Gemini API',
